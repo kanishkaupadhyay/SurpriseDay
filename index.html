@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scene">
+        <!-- Floating hearts background -->
+        <div class="floating-hearts" aria-hidden="true"></div>
+
+        <!-- Floating nickname texts -->
+        <div class="floating-texts" aria-hidden="true">
+            <span class="floating-text">Meri Mrunal</span>
+            <span class="floating-text">Masha</span>
+            <span class="floating-text">Wednesday</span>
+            <span class="floating-text">Tingu</span>
+            <span class="floating-text">Baby</span>
+            <span class="floating-text">Sweetheart</span>
+            <span class="floating-text">Darling</span>
+            <span class="floating-text">Meri Jenny</span>
+            <span class="floating-text">Meri Spider-woman</span>
+        </div>
+
+        <!-- Envelope container -->
+        <div id="envelope" class="envelope">
+            <!-- Heart seal button -->
+            <button id="openBtn" class="heart-button" aria-label="Open my heart">
+                <svg viewBox="0 0 100 100" class="heart-svg" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="heartGradient" x1="20%" y1="0%" x2="80%" y2="100%">
+                            <stop offset="0%" stop-color="#ffb8c9" />
+                            <stop offset="40%" stop-color="#ff6b81" />
+                            <stop offset="100%" stop-color="#d90429" />
+                        </linearGradient>
+                        <linearGradient id="heartShine" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="rgba(255,255,255,0.7)" />
+                            <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+                        </linearGradient>
+                        <filter id="heartGlow" x="-30%" y="-30%" width="160%" height="160%">
+                            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#ff1e56" flood-opacity="0.5" />
+                        </filter>
+                    </defs>
+                    <g transform="translate(2, 2)">
+                        <path d="M48 86 C48 86, 6 60, 6 30 C6 16, 18 5, 32 5 C41 5, 46 11, 48 17 C50 11, 55 5, 64 5 C78 5, 90 16, 90 30 C90 60, 48 86, 48 86 Z"
+                              fill="url(#heartGradient)" filter="url(#heartGlow)" />
+                        <ellipse cx="26" cy="22" rx="10" ry="6" fill="url(#heartShine)" transform="rotate(-30 26 22)" />
+                    </g>
+                </svg>
+                <span class="heart-text">Open</span>
+            </button>
+
+            <div class="envelope-body">
+                <div class="envelope-back"></div>
+                <div class="letters-stack">
+                    <div class="letter" data-index="0">
+                        <div class="paper">
+                            <div class="paper-lines">
+                                <p class="salutation">Happy Girlfriend Day, my love.</p>
+                                <p class="note-text">
+                                    Today, I just want to say thank you — thank you for choosing this silly guy to be your partner.
+                                    I don’t say it enough, but I’m truly grateful for everything you do, even when you’re not in the best mood and life feels hard.
+                                </p>
+                                <p class="closing">Forever yours,</p>
+                                <p class="signature">Your bhondu, Kanishka 💛</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="letter" data-index="1">
+                        <div class="paper">
+                            <div class="paper-lines">
+                                <p class="salutation">My Love,</p>
+                                <p class="note-text">
+                                    Your love, your care, and your efforts have changed me in the best way possible.
+                                    This silly guy wants you to remember one thing: I love you — a lot — and I always will.
+                                </p>
+                                <p class="closing">Always,</p>
+                                <p class="signature">Your bhondu, Kanishka 💛</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="letter" data-index="2">
+                        <div class="paper">
+                            <div class="paper-lines">
+                                <p class="salutation">To My Beautiful Soul,</p>
+                                <p class="note-text">
+                                    I’ll keep caring for you and doing my best to make all your dreams come true.
+                                    Sorry for being annoying sometimes. I’m still learning, but loving you is the one thing I’ll never get wrong.
+                                </p>
+                                <p class="closing">Learning every day,</p>
+                                <p class="signature">Your bhondu, Kanishka 💛</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="letter" data-index="3">
+                        <div class="paper">
+                            <div class="paper-lines">
+                                <p class="salutation">My Everything,</p>
+                                <p class="note-text">
+                                    You are the most beautiful soul in my life, and I hope today makes you feel as special as you are to me.
+                                    Thank you for being my person, my peace, and my greatest adventure.
+                                </p>
+                                <p class="closing">Forever yours,</p>
+                                <p class="signature">Your bhondu, Kanishka 💛</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="letter letter-cake" data-index="4">
+                        <div class="paper paper-cake">
+                            <div class="paper-lines paper-lines-cake">
+                                <p class="salutation cake-title">I love you</p>
+                                <div class="cake-scene">
+                                    <div class="cake">
+                                        <div class="cake-top"></div>
+                                        <div class="cake-middle"></div>
+                                        <div class="cake-base"></div>
+                                        <div class="cake-decor">
+                                            <span class="cake-berry"></span>
+                                            <span class="cake-berry"></span>
+                                            <span class="cake-berry"></span>
+                                        </div>
+                                    </div>
+                                    <div class="floating-cake-hearts" aria-hidden="true">
+                                        <span class="cake-heart">♥</span>
+                                        <span class="cake-heart">♥</span>
+                                        <span class="cake-heart">♥</span>
+                                        <span class="cake-heart">♥</span>
+                                        <span class="cake-heart">♥</span>
+                                    </div>
+                                </div>
+                                <p class="closing cake-closing">Happy Girlfriend Day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="envelope-side envelope-side-left"></div>
+                <div class="envelope-side envelope-side-right"></div>
+                <div class="envelope-pocket"></div>
+                <div id="flap" class="envelope-flap"></div>
+            </div>
+        </div>
+
+        <p id="hint" class="hint">Click the heart to open your surprise</p>
+    </div>
+
+    <!-- Footer credit -->
+    <footer class="footer-credit">
+        Made with love by <strong>Kanishka Upadhyay</strong>
+    </footer>
+
+    <!-- Navigation buttons (appear when letter is open) -->
+    <div id="navControls" class="nav-controls" aria-hidden="true">
+        <button id="prevBtn" class="nav-btn" aria-label="Previous letter">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <span id="pageIndicator" class="page-indicator">1 / 5</span>
+        <button id="nextBtn" class="nav-btn" aria-label="Next letter">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
