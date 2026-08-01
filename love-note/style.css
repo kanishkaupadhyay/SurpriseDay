@@ -484,6 +484,10 @@ body {
     line-height: 1.2;
 }
 
+.pink-heart {
+    color: #ff6b81;
+}
+
 /* ===== Cake page ===== */
 .letter-cake .paper-cake {
     background: linear-gradient(180deg, #fff8f0 0%, #fff0f5 100%);
